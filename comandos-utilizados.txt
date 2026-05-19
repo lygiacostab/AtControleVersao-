@@ -1,0 +1,15 @@
+2. git init           //inicializa o repositório local no git
+3. git branch -M main
+4. echo # Meu Projeto > README.md            //cria o meu arquivo README.md
+5. git status                 //para verificar os status de quais dos meus arquivos que faltam versionar
+6. git add README.md               //adicionando o arquivo no fluxo de versionamento do Git
+7. git commit -a -m "Meu primeiro commit apos a criacao do arquivo README"      //commitando e deixando uma mensagem no histórico
+8. git push -u origin main     //para fazer o envio das alterações para o repositório remoto
+9. git checkout -b "feature-login"            ///adicionando uma nova branch
+9. git commit -a -m "Nova Funcionalidade de login."     //commitando nova branch enviando uma mensagem no histórico     
+10. git checkout main             //volto para a minha branch principal
+11. git branch               //verifico em qual branch estou, e as branchs disponíveis
+12. git merge feature-login                 //une as alterações da minha branch feature-login com a minha branch atual principal utilizada
+13. git push            //envia as alterações feitas
+14. git log --stat            //lista os arquivos modificado em cada commit
+15. git log             //lista histórico
